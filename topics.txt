@@ -1,0 +1,7 @@
+{"topic_num": 0, "words": ["casino", "bonus", "poker", "blackjack", "deposit", "money", "mobile", "player", "video", "table"]}
+{"topic_num": 1, "words": ["gaming", "gambling", "every", "register", "privacy", "please", "copyright", "responsible", "casino", "provide"]}
+{"topic_num": 2, "words": ["magic", "dragon", "treasure", "night", "joker", "golden", "quest", "empire", "planet", "riches"]}
+{"topic_num": 3, "words": ["apply", "withdrawal", "video", "wager", "casino", "bonus", "account", "deposit", "start", "amount"]}
+{"topic_num": 4, "words": ["virus", "computer", "support", "security", "additional", "access", "account", "information", "warning", "close"]}
+{"topic_num": 5, "words": ["active", "verify", "period", "financial", "applicable", "towards", "institution", "concern", "correct", "additional"]}
+{"topic_num": 6, "words": ["music", "movie", "video", "latest", "android", "version", "watch", "quality", "audio", "search"]}
