@@ -21,7 +21,7 @@ To train a model input the following command:
 python3 main.py -i "infile.json" -o "outfile.json" -t "topicsfile" -n "number of topics" -d "path for dictionary" -m "path for model" --train
 ```
 
-To predict unseen corpus on a previously trained model, input the following command:
+To predict unseen corpus using a previously trained model, input the following command:
 ```
 python3 main.py -i "infile.json" -o "outfile.json" -t "topicsfile" -n "number of topics" -d "path for saved dictionary" -m "path for saved model" 
 ```
