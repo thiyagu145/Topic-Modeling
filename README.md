@@ -1,10 +1,10 @@
 # Topic-Modeling
-This repository contains the codes for unspuervised document classification. The code takes in the documents along with their IDs and returns the Document ID with the corresponding topic IDs. It also generates the list of words under each topic. The following dependencies are to be installed before running the script. 
+This repository contains the codes for unspuervised document classification. The code takes in the documents along with their IDs and returns the Document ID with the corresponding topic IDs. It also generates the list of words under each topic. The program is written in python. The following dependencies are to be installed before running the script. 
 1. spacy==2.0.16
 2. nltk==3.2.5
 3. gensim==3.4.0
 
-The code may work with different versions of the above mentioned packages, but the functionalities might differ. 
+To train an unspuervised document classifier, use the file main.py and execute based on the instructions given below. The code may work with different versions of the above mentioned packages, but the functionalities might differ. 
 
 The main script has a number of arguments to be passed.
 1. -i contains the link for the input file
