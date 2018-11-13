@@ -7,8 +7,8 @@ topics. The entire approach for pre-processing is mentioned step by step.
 4. The words that are not from the English language are also removed. 
 5. A set of these tokens are returned for each document to reduce the word redundancy. 
 
-Once the text pre-processing is done, a dictionary of the corpus is created using corpora.Dictionary(data) using the 
-gensim corpora function. The corpus is created using the generated dictionary by the command *[dictionary.doc2bow(text) 
-for text in train_data]. This creates the Bag of Words representation of the dictionary. 
+Once the text pre-processing is done, a dictionary of the corpus is created using **corpora.Dictionary(data)** using the 
+gensim corpora function. The corpus is created using the generated dictionary by the command **dictionary.doc2bow(text) 
+for text in train_data**. This creates the Bag of Words representation of the dictionary. 
 This contains the word along with their ID. 
 
