@@ -17,5 +17,5 @@ The main script has a number of arguments to be passed.
 
 
 To train a model input the following command:
-python3 main.py -i <infile>.json -o <outfile>.json -t <topicsfile> -n <number of topics> -d <path for dictionary> -m <path for model> --train
+python3 main.py -i "infile.json" -o "outfile.json" -t "topicsfile" -n "number of topics" -d "path for dictionary" -m "path for model" --train
   
