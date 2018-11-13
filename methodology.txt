@@ -1,0 +1,6 @@
+An LDA model is used to cluster similar documents from a corpus. The output file contains the topics for each document in the
+decreasing order of the weights. The words correspoding to each set of topics is also generated. We can modify the number of 
+topics. The entire approach is mentioned step by step. 
+1. The first step is to clean the text and tokenize. Spacy's english language parser is used to tokenize the text. Once this is
+done, the most common words and the words with length less than 4 are removed. The root words are obtained using lemmatizer. The
+words that are not from the English language are also removed. 
