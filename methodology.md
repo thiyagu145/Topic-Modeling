@@ -11,3 +11,8 @@ Once the text pre-processing is done, a dictionary of the corpus is created usin
 
 After this step is to train the latent Dirichlet allocation (LDA) model. This is a generative model that clusters the documents based on the similarity of the words in them. Once the model is trained, the next step is to use the trained model to assign topic IDs for each document. This is done using the command **ldamodel.get_document_topics(corpus, minimum_probability=0.0001)** where corpus is obtained using **dictionary.doc2bow(text)**. The output will contain the topics along with their probabilities. The words under each topic can be obtained using **ldamodel.show_topic**. This is the process for unsupervised clustering of documents.
 
+
+
+
+References:
+[1] https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21
