@@ -14,3 +14,8 @@ The main script has a number of arguments to be passed.
 5. -n specifies the number of topics that the documents must be categorised into
 6. -m contains the link for saving the new model or loading a pretrained model
 7. --train specifies whether to train a new model or to predict new documents based on a pre-trained model
+
+
+To train a model input the following command:
+python3 main.py -i <infile>.json -o <outfile>.json -t <topicsfile> -n <number of topics> -d <path for dictionary> -m <path for model> --train
+  
